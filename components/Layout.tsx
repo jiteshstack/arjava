@@ -29,8 +29,8 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <div className="flex-shrink-0 flex items-center cursor-pointer gap-3" onClick={() => navigate('/')}>
-              <Logo className="h-9 w-9 text-indigo-900" />
+            <div className="flex-shrink-0 flex items-center cursor-pointer gap-2.5" onClick={() => navigate('/')}>
+              <Logo className="h-11 w-11 text-indigo-900" />
               <span className="text-2xl font-bold tracking-tight text-slate-900">
                 {COMPANY_INFO.name}
               </span>
@@ -119,8 +119,8 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-1">
-              <div className="flex items-center gap-2 mb-4">
-                <Logo className="h-8 w-8 text-white" />
+              <div className="flex items-center gap-2.5 mb-4">
+                <Logo className="h-10 w-10 text-white" />
                 <span className="text-2xl font-bold text-white block">
                   {COMPANY_INFO.name}
                 </span>
