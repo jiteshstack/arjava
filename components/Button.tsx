@@ -1,4 +1,5 @@
 import React from 'react';
+import { getThemeClasses } from '../theme';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'outline' | 'white';
@@ -16,11 +17,12 @@ export const Button: React.FC<ButtonProps> = ({
 }) => {
   const baseStyles = "inline-flex items-center justify-center font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none rounded-lg";
   
+  // Using theme classes for consistent styling
   const variants = {
-    primary: "bg-indigo-900 text-white hover:bg-indigo-800 focus:ring-indigo-900 border border-transparent",
-    secondary: "bg-slate-200 text-slate-900 hover:bg-slate-300 focus:ring-slate-500 border border-transparent",
-    outline: "bg-transparent text-indigo-900 border border-indigo-900 hover:bg-indigo-50 focus:ring-indigo-900",
-    white: "bg-white text-indigo-900 hover:bg-indigo-50 focus:ring-white border border-transparent shadow-sm",
+    primary: `${getThemeClasses.primary.bg[900]} text-white ${getThemeClasses.primary.hover[800]} ${getThemeClasses.primary.focus[900]} border border-transparent`,
+    secondary: `${getThemeClasses.neutral.bg[200]} ${getThemeClasses.neutral.text[900]} ${getThemeClasses.neutral.bg[300]} focus:ring-slate-500 border border-transparent`,
+    outline: `bg-transparent ${getThemeClasses.primary.text[900]} ${getThemeClasses.primary.border[900]} ${getThemeClasses.primary.hover[50]} ${getThemeClasses.primary.focus[900]}`,
+    white: `bg-white ${getThemeClasses.primary.text[900]} ${getThemeClasses.primary.hover[50]} focus:ring-white border border-transparent shadow-sm`,
   };
 
   const sizes = {

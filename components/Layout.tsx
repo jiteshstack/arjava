@@ -5,6 +5,8 @@ import { COMPANY_INFO, NAV_LINKS } from '../constants';
 import { Button } from './Button';
 import { Logo } from './Logo';
 import { WhatsAppButton } from './WhatsAppButton';
+// Theme colors: See theme.ts for color definitions
+// Primary: indigo-900 (#1e1b4b), Neutral: slate-* (#0f172a - #f8fafc)
 
 interface LayoutProps {
   children: React.ReactNode;

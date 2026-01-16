@@ -1,4 +1,5 @@
 import React from 'react';
+import { getThemeClasses } from '../theme';
 
 interface SectionProps {
   children: React.ReactNode;
@@ -15,10 +16,11 @@ export const Section: React.FC<SectionProps> = ({
   id,
   background = 'white'
 }) => {
+  // Using theme classes for consistent styling
   const bgStyles = {
     white: "bg-white",
-    light: "bg-slate-50 border-y border-slate-200",
-    dark: "bg-slate-900 text-white",
+    light: `${getThemeClasses.neutral.bg[50]} border-y ${getThemeClasses.neutral.border[200]}`,
+    dark: `${getThemeClasses.neutral.bg[900]} text-white`,
   };
 
   return (
