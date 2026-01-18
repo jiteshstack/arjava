@@ -31,6 +31,13 @@ export const About: React.FC = () => {
               {ABOUT_CONTENT.mission}
             </p>
           </div>
+          
+          <div>
+            <h2 className="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-indigo-900 pl-4">Vision</h2>
+            <p className="text-lg text-slate-700 leading-relaxed font-medium">
+              {ABOUT_CONTENT.vision}
+            </p>
+          </div>
 
           <div>
              <h2 className="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-indigo-900 pl-4">Our Team</h2>

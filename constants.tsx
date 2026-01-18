@@ -17,8 +17,8 @@ export const COMPANY_INFO: CompanyInfo = {
   tagline: "Clarity in Systems. Integrity in Execution.",
   contact: {
     email: "hello@arjavahub.com",
-    phone: "+91 11 2345 6789",
-    whatsapp: "911123456789",
+    phone: "+91 97112 38920",
+    whatsapp: "919711238920",
     address: "Aerocity, New Delhi, India"
   }
 };
@@ -139,7 +139,8 @@ export const INDUSTRIES: string[] = [
 
 export const ABOUT_CONTENT = {
   story: "Founded by veterans in government technology and enterprise architecture, Ārjava emerged from a need for serious, robust software in the public sector. We recognized that generic SaaS tools often fail to meet the complex, multi-layered requirements of government and large industry.",
-  mission: "To empower large organizations with software that is as reliable, transparent, and dignified as the institutions they serve."
+  mission: "To design and deliver reliable, scalable, and responsible technology solutions that simplify complex operations and create long-term value for organizations.",
+  vision: "To become a globally trusted technology partner known for engineering excellence, disciplined execution, and systems that stand the test of time."
 };
 
 // Formspree.io endpoint - Replace 'YOUR_FORM_ID' with your actual Formspree form ID

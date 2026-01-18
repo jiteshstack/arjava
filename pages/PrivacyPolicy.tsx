@@ -168,7 +168,7 @@ export const PrivacyPolicy: React.FC = () => {
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
               <p className="text-slate-700 mb-2"><strong>Email:</strong> <a href="mailto:hello@arjavahub.com" className="text-indigo-900 hover:underline">hello@arjavahub.com</a></p>
               <p className="text-slate-700 mb-2"><strong>Address:</strong> Aerocity, New Delhi, India</p>
-              <p className="text-slate-700"><strong>Phone:</strong> +91 11 2345 6789</p>
+              <p className="text-slate-700"><strong>Phone:</strong> +91 97112 38920</p>
             </div>
           </div>
         </div>
