@@ -16,6 +16,7 @@ export interface ServiceItem {
 export interface FeatureItem {
   title: string;
   description: string;
+  icon?: LucideIcon;
 }
 
 export interface ContentSection {

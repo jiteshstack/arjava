@@ -13,7 +13,7 @@ export const Solutions: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-white mb-4">Our Solutions</h1>
           <p className="text-xl text-slate-300 max-w-2xl">
-            Modular, scalable, and secure ERP modules designed for the specific needs of government and large-scale enterprise operations.
+          ERP is a tool for operational improvement, but as a "born-in-the-cloud" digital foundation designed for modern, innovative enterprises. We will provide a comprehensive, unified platform that provides a complete, 360-degree perspective of an entire organization. By centralizing and automating all business functions end-to-end on a single cloud-based system, it allows leaders to monitor and manage their operations in real-time from any location or device
           </p>
         </div>
       </div>
