@@ -13,7 +13,7 @@ export const TermsOfService: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-white">Terms of Service</h1>
           </div>
           <p className="text-xl text-slate-400 max-w-2xl">
-            These terms govern your use of Ārjava's ERP systems and services. Please read them carefully before engaging with our platform.
+            These terms govern your use of ARJAVA INNOVATION PRIVATE LIMITED's ERP systems and services. Please read them carefully before engaging with our platform.
           </p>
         </div>
         {/* Background Pattern */}

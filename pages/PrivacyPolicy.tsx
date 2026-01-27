@@ -13,7 +13,7 @@ export const PrivacyPolicy: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-white">Privacy Policy</h1>
           </div>
           <p className="text-xl text-slate-400 max-w-2xl">
-            Your privacy and data security are fundamental to how we operate. This policy outlines how Ārjava collects, uses, and protects your information.
+            Your privacy and data security are fundamental to how we operate. This policy outlines how ARJAVA INNOVATION PRIVATE LIMITED collects, uses, and protects your information.
           </p>
         </div>
         {/* Background Pattern */}
